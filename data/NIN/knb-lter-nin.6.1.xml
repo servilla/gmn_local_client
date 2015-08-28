@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/eml/eml-2.1.0/eml.xsd"
+	packageId="knb-lter-nin.6.1" system="knb" scope="system">
+	<access authSystem="knb" order="allowFirst">
+		<allow>
+			<principal>uid=NIN,o=LTER,dc=ecoinformatics,dc=org</principal>
+			<permission>all</permission>
+		</allow>
+		<allow>
+			<principal>public</principal>
+			<permission>read</permission>
+		</allow>
+	</access>
+	<dataset>
+	 <title>Meiobenthos abundance. Long-term variability and dynamics of estuarine meiobenthic
+	 	populations for North Inlet Estuary, South Carolina, from 1972 to 1992, North Inlet LTER.</title>
+		<creator>
+			<individualName>
+				<salutation>Dr.</salutation>
+				<givenName>Bruce</givenName>
+				<surName>Coull</surName>
+			</individualName>
+		</creator>
+		<metadataProvider>
+			<organizationName>LTER Network Office</organizationName>
+			<address>
+				<deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+				<deliveryPoint>1 University of New Mexico</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131-0001</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">505 277 2535</phone>
+			<phone phonetype="fax">505 277 2541</phone>
+			<electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+			<onlineUrl>http://www.lternet.edu</onlineUrl>
+		</metadataProvider>
+		<pubDate>2006</pubDate>
+		<language>english</language>
+		<abstract>
+			<para>The original purpose of this research was to determine if natural
+					meiobenthic assemblages exhibited continuity over time and to monitor several
+					physical variables to determine if these influenced long-term temporal patterns.
+					The most recent study focused on variation and the relations of meiobenthos
+					abundance with environmental factors over 11 years. Typically marine benthic
+					community studies are limited temporally and the majority of previously
+					published 'longterm' meiofauna results (all taxa) were based on about a year's
+					duration.</para> 
+		</abstract>
+		<keywordSet>
+			<keyword keywordType="place">North Inlet Estuary</keyword>
+			<keyword keywordType="place">Baruch Institute</keyword>
+			<keyword keywordType="place">Georgetown, South Carolina</keyword>
+		</keywordSet>	
+		<keywordSet>
+			<keyword keywordType="theme">meiobenthic assemblages</keyword>
+			<keyword keywordType="theme">Zooplankton</keyword>
+			<keyword keywordType="theme">ecosystems</keyword>
+			<keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+		</keywordSet>
+		<intellectualRights>
+			<section>
+				<title>LTER Network Data Access Requirements</title>
+				<para> The access to all LTER data is subject to requirements set forth by this
+					policy document to enable data providers to track usage, evaluate its impact in
+					the community, and confirm users' acceptance of the terms of acceptable use.
+					These requirements are standardized across the LTER Network to provide
+					contractual exchange of data between Site Data Providers, Network Data
+					Providers, and Data Users that can be encoded into electronic form and exchanged
+					between computers. This will allow direct access to data via a common portal
+					once these requirements have been fulfilled. The following information may be
+					required directly or by proxy prior to the transference of any data object: <itemizedlist>
+						<listitem>
+							<para> Registration </para>
+						</listitem>
+						<listitem>
+							<itemizedlist>
+								<listitem>
+									<para> Name </para>
+								</listitem>
+								<listitem>
+									<para> Affiliation </para>
+								</listitem>
+								<listitem>
+									<para> Email address </para>
+								</listitem>
+								<listitem>
+									<para> Full Contact Info </para>
+								</listitem>
+							</itemizedlist>
+						</listitem>
+						<listitem>
+							<para> Acceptance of the General Public Use Agreement or Restricted Data
+								Use Agreement, as applicable </para>
+						</listitem>
+						<listitem>
+							<para> A Statement of Intended Use that is compliant with the above
+								agreements. Such statements may be made submitted explicitly or made
+								implicitly via the data access portal interface.</para>
+						</listitem>
+					</itemizedlist>
+				</para>
+			</section>
+			<section>
+				<title>Conditions of Data Use</title>
+				<para> The re-use of scientific data has the potential to greatly increase
+					communication, collaboration and synthesis within and among disciplines, and
+					thus is fostered, supported and encouraged. Permission to use this dataset is
+					granted to the Data User free of charge subject to the following terms:
+					<itemizedlist>
+						<listitem>
+							<para> Acceptable Use. Use of the dataset will be restricted to
+								academic, research, educational, government, recreational, or other
+								not-for-profit professional purposes. The Data User is permitted to
+								produce and distribute derived works from this dataset provided that
+								they are released under the same license terms as those accompanying
+								this Data Set. Any other uses for the Data Set or its derived
+								products will require explicit permission from the dataset owner.
+							</para>
+						</listitem>
+						<listitem>
+							<para> Redistribution. The data are provided for use by the Data User.
+								The metadata and this license must accompany all copies made and be
+								available to all users of this Data Set. The Data User will not
+								redistribute the original Data Set beyond this collaboration sphere.
+							</para>
+						</listitem>
+						<listitem>
+							<para> Citation. It is considered a matter of professional ethics to
+								acknowledge the work of other scientists. Thus, the Data User will
+								properly cite the Data Set in any publications or in the metadata of
+								any derived data products that were produced using the Data Set.
+								Citation should take the following general form: Creator, Year of
+								Data Publication, Title of Dataset, Publisher, Dataset identifier.
+							</para>
+						</listitem>
+						<listitem>
+							<para> Acknowledgement. The Data User should acknowledge any
+								institutional support or specific funding awards referenced in the
+								metadata accompanying this dataset in any publications where the
+								Data Set contributed significantly to its content. Acknowledgements
+								should identify the supporting party, the party that received the
+								support, and any identifying information such as grant numbers.
+							</para>
+						</listitem>
+						<listitem>
+							<para> Notification. The Data User will notify the Data Set Contact when
+								any derivative work or publication based on or derived from the Data
+								Set is distributed. The Data User will provide the data contact with
+								two reprints of any publications resulting from use of the Data Set
+								and will provide copies, or on-line access to, any derived digital
+								products. Notification will include an explanation of how the Data
+								Set was used to produce the derived work. </para>
+						</listitem>
+						<listitem>
+							<para> Collaboration. The Data Set has been released in the spirit of
+								open scientific collaboration. Data Users are thus strongly
+								encouraged to consider consultation, collaboration and/or
+								co-authorship with the Data Set Creator. </para>
+						</listitem>
+					</itemizedlist> By accepting this Data Set, the Data User agrees to abide by the
+					terms of this agreement. The Data Owner shall have the right to terminate this
+					agreement immediately by written notice upon the Data User's breach of, or
+					non-compliance with, any of its terms. The Data User may be held responsible for
+					any misuse that is caused or encouraged by the Data User's failure to abide by
+					the terms of this agreement. </para>
+			</section>
+			<section>
+				<title>Disclaimer</title>
+				<para> While substantial efforts are made to ensure the accuracy of data and
+					documentation contained in this Data Set, complete accuracy of data and metadata
+					cannot be guaranteed. All data and metadata are made available "as is". The Data
+					User holds all parties involved in the production or distribution of the Data
+					Set harmless for damages resulting from its use or interpretation. </para>
+			</section>
+		</intellectualRights>	
+		<coverage>
+			<geographicCoverage>
+				<geographicDescription>North Inlet encompasses about 2,630 hectares of tidal marshes
+					and wetlands near Georgetown, South Carolina, USA. North Inlet-Winyah Bay
+					features high quality, ocean-dominated waters and salt marshes in North Inlet,
+					contrasting with the brackish waters and marshes of Winyah Bay. The bay estuary
+					is dominated by riverine discharges from a watershed impacted by agricultural,
+					municipal and industrial development. Former rice fields and canals provide
+					another system for study within the Reserve. The Debidue site is located at the
+					confluence of Town Creek and Debidue Creek. The Bread and Butter site is located
+					along the western shoreline of Town Creek adjacent to the mouth of Clambank
+					Creek. The study site is the North Inlet marsh, a 3000 hectare high salinity
+					estuary dominated by Spartina alterniflora, located approximately 6 km east of
+					Georgetown, South Carolina. The marsh is bordered on the east by two barrier
+					islands; on the south by a larger brackish estuary, Winyah Bay; and on the west
+					and north by a mixed oak-pine forested peninsula. Debidue Site (DD) - Debidue is
+					a sand-bottomed site located approximately .5 km inside the Inlet mouth adjacent
+					to the confluence of two major marsh creeks, Debidue and Town Creeks. The site
+					is at the lower end of an extensive sand bar and is subject to strong current
+					and wave action. Bread and Butter Site (BB) - This site is located on a muddy
+					subtidal bank of Bread and Butter Creek, about 100 m inside the mouth of this
+					medium sized creek. The creek is 1.5 km SW of the Debidue site in the center of
+					the marsh. The creek is 10 m wide at low tide at the sample site and is
+					sheltered from strong current and wave action. The creek is lined with mud banks
+					and oyster bars and the sediment at the sampling site is fine, silty mud. 
+				</geographicDescription>
+				<boundingCoordinates>
+					<westBoundingCoordinate>-79.2936</westBoundingCoordinate>
+					<eastBoundingCoordinate>-79.1042</eastBoundingCoordinate>
+					<northBoundingCoordinate>33.357</northBoundingCoordinate>
+					<southBoundingCoordinate>33.2125</southBoundingCoordinate>
+				</boundingCoordinates>
+			</geographicCoverage>
+			<temporalCoverage>
+				<rangeOfDates>
+					<beginDate>
+						<calendarDate>1972-09-07</calendarDate>
+					</beginDate>
+					<endDate>
+						<calendarDate>1992-12-21</calendarDate>
+					</endDate>
+				</rangeOfDates>
+			</temporalCoverage>
+		</coverage>				
+		<maintenance>
+			<description>
+				<section>
+					<title>Entry verification</title>
+					<para>
+						Verification was performed at the input step using a program
+						which creates a hardcopy to compare against the original sheets.
+					</para>
+				</section>
+				<section>
+					<title>Data last update while at North Inlet</title>
+					<para>
+						December 12, 1992
+					</para>
+				</section>
+				<section>
+					<title>Data last archive date while at North Inlet</title>
+					<para>
+						December 12, 1992
+					</para>
+				</section>
+				<section>
+					<title>Last Modification at LTER NIN site</title>
+					<para>
+						Data files format was converted from delimited to comma
+							separated. Data was revised for consistency, agreement with metadata.
+							Date: November 2006	</para>
+					</section>
+				<section>
+					<title>Last Modification at LTER Network Office</title>			
+					<para>Individual data files (LTER.NIN.MEIO.1972.txt,LTER.NIN.MEIO.1973.txt,
+							LTER.NIN.MEIO.1974.txt,LTER.NIN.MEIO.1975.txt,LTER.NIN.MEIO.1976.txt,
+							LTER.NIN.MEIO.1977.txt, LTER.NIN.MEIO.1978.txt, LTER.NIN.MEIO.1979.txt,
+							LTER.NIN.MEIO.1980.txt, LTER.NIN.MEIO.1981.txt, LTER.NIN.MEIO.1982.txt,
+							LTER.NIN.MEIO.1983.txt, LTER.NIN.MEIO.1984.txt, LTER.NIN.MEIO.1985.txt,
+							LTER.NIN.MEIO.1986.txt, LTER.NIN.MEIO.1987.txt, LTER.NIN.MEIO.1988.txt,
+							LTER.NIN.MEIO.1989.txt, LTER.NIN.MEIO.1990.txt, LTER.NIN.MEIO.1991.txt,
+							LTER.NIN.MEIO.1992.txt) were concatenated into a single file spanning the
+							dates from 1972 to 1992. Original fixed column format was changed to comma
+							separated value format. These changes occured in March 2012</para>					
+				</section>
+			</description>
+		</maintenance>
+		<contact>
+			<positionName>Information Manager</positionName>
+			<organizationName>LTER Network Office</organizationName>
+			<address>
+				<deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+				<deliveryPoint>1 University of New Mexico</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131-0001</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">505 277 2535</phone>
+			<phone phonetype="fax">505 277 2541</phone>
+			<electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+			<onlineUrl>http://www.lternet.edu</onlineUrl>
+		</contact>
+		<publisher>
+			<organizationName>LTER Network Office</organizationName>
+			<address>
+				<deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+				<deliveryPoint>1 University of New Mexico</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131-0001</postalCode>
+				<country>USA</country>
+			</address>
+			<phone phonetype="voice">505 277 2535</phone>
+			<phone phonetype="fax">505 277 2541</phone>
+			<electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+			<onlineUrl>http://www.lternet.edu</onlineUrl>
+		</publisher>	
+		<pubPlace>Long Term Ecological Research Network Office</pubPlace>
+		<dataTable id="meiobenthicAbundance">
+			<entityName>meiobenthicAbundance-NIN-LTER-1972-1992</entityName>
+			<entityDescription>Long-term variability and dynamics of estuarine meiobenthic populations 
+				for North Inlet Estuary, South Carolina, from 1972 to 1992, North Inlet LTER</entityDescription>
+			<physical>
+				<objectName>LTER.NIN.MEIO.csv</objectName>
+				<size unit="byte">73000</size>
+				<dataFormat>
+					<textFormat>
+						<numHeaderLines>1</numHeaderLines>
+						<recordDelimiter>\r\n</recordDelimiter>
+						<physicalLineDelimiter>\r\n</physicalLineDelimiter>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url function="download"
+							>http://nis.lternet.edu/NIN/data/LTER.NIN.MEIO.csv</url>
+					</online>
+					<access authSystem="knb" order="allowFirst">
+						<allow>
+							<principal>uid=NIN,o=LTER,dc=ecoinformatics,dc=org</principal>
+							<permission>all</permission>
+						</allow>
+						<allow>
+							<principal>public</principal>
+							<permission>read</permission>
+						</allow>
+					</access>
+				</distribution>
+			</physical>
+			<coverage>
+				<geographicCoverage>
+					<geographicDescription>North Inlet encompasses about 2,630 hectares of tidal marshes
+						and wetlands near Georgetown, South Carolina, USA. North Inlet-Winyah Bay
+						features high quality, ocean-dominated waters and salt marshes in North Inlet,
+						contrasting with the brackish waters and marshes of Winyah Bay. The bay estuary
+						is dominated by riverine discharges from a watershed impacted by agricultural,
+						municipal and industrial development. Former rice fields and canals provide
+						another system for study within the Reserve. The Debidue site is located at the
+						confluence of Town Creek and Debidue Creek. The Bread and Butter site is located
+						along the western shoreline of Town Creek adjacent to the mouth of Clambank
+						Creek. The study site is the North Inlet marsh, a 3000 hectare high salinity
+						estuary dominated by Spartina alterniflora, located approximately 6 km east of
+						Georgetown, South Carolina. The marsh is bordered on the east by two barrier
+						islands; on the south by a larger brackish estuary, Winyah Bay; and on the west
+						and north by a mixed oak-pine forested peninsula. Debidue Site (DD) - Debidue is
+						a sand-bottomed site located approximately .5 km inside the Inlet mouth adjacent
+						to the confluence of two major marsh creeks, Debidue and Town Creeks. The site
+						is at the lower end of an extensive sand bar and is subject to strong current
+						and wave action. Bread and Butter Site (BB) - This site is located on a muddy
+						subtidal bank of Bread and Butter Creek, about 100 m inside the mouth of this
+						medium sized creek. The creek is 1.5 km SW of the Debidue site in the center of
+						the marsh. The creek is 10 m wide at low tide at the sample site and is
+						sheltered from strong current and wave action. The creek is lined with mud banks
+						and oyster bars and the sediment at the sampling site is fine, silty mud. 
+					</geographicDescription>
+					<boundingCoordinates>
+						<westBoundingCoordinate>-79.2936</westBoundingCoordinate>
+						<eastBoundingCoordinate>-79.1042</eastBoundingCoordinate>
+						<northBoundingCoordinate>33.357</northBoundingCoordinate>
+						<southBoundingCoordinate>33.2125</southBoundingCoordinate>
+					</boundingCoordinates>
+				</geographicCoverage>
+				<temporalCoverage>
+					<rangeOfDates>
+						<beginDate>
+							<calendarDate>1972-09-07</calendarDate>
+						</beginDate>
+						<endDate>
+							<calendarDate>1992-12-21</calendarDate>
+						</endDate>
+					</rangeOfDates>
+				</temporalCoverage>
+			</coverage>
+			<methods>
+				<methodStep>
+					<description>
+						<section>
+							<title>Research methods</title>
+							<para> 
+						    Each core sample was extruded and immediately fixed in 10
+							percent borax-buffered formalin with Rose Bengal. Salinity was measured
+							by refractometer and Eh (September 1972 - December 1976) by platinum
+							electrode. Oxidizable organic matter was determined using the wet
+							dichromate method (Walkley and Black 1934). Granulometric parameters
+							were measured by wet sieving through phi series sieves to 63
+							micrometers, and drying and weighing the sediment retained on the
+							sieves. An aliquot of the material passing the 63 micrometer sieve was
+							removed for pipette analysis (Folk 1968). Sorting coefficient was
+							calculated using methods by Trask (1932). Mud samples were extracted
+							using Ludox centrifugation (de Jonge and Bowmann 1977); the sand samples
+							by the shaking-supernatant technique of Wieser (1960). All animals
+							retained on a 63 micrometer sieve were enumerated to major taxon; every
+							copepod and every 4th nematode was removed for species identification.
+							Since all sorted samples were formalin fixed, soft-bodied taxa abundance
+							(e.g. gastrotrichs, turbellarians, ciliates) was probably underestimated
+							(Hulings and Gray 1971). Ciliates may have been further underestimated
+							since the samples were collected on a 63 micrometer sieve; thus only the
+							larger ciliates (e.g. Tracheloraphis spp.) were retained.
+					  	</para>
+							</section>
+						<section>
+						<title>Experimental Design</title>
+						<para>The study sites (1 sand, 1 mud) in North Inlet, South
+								Carolina, USA, were sampled monthly from January 1973 through
+								December 1980 and every two weeks from January 1981 - December 1983.
+								At each site 4 replicate core samples were taken up to March 1976, 3
+								replicates from April 1976 - December 1980 and 2 replicates from
+								January 1981 December 1983. All cores were taken to the depth of the
+								redox potential discontinuity (RPD); typically 1 to 2 centimeters in
+								mud; 4 to 10 centimeters in sand. Both sites are subtidal, located 1
+								meter below MLW. Sediment samples were collected for organic
+								analysis up to 1978, and for sediment size analysis monthly or
+								quarterly (up to September 1979) and then monthly (March - December
+								1983). Four data sets were collected to assess potential temperature
+								effects: (1) surface-sediment temperature measurements taken at the
+								time of meiofauna sample collection (January 1973 - December 1983);
+								(2) minimum and maximum daily air temperature recorded at the
+								Georgetown County, SC, Airport from January 1935 - December 1978 (44
+								yr); (3) daily surface water temperatures from the mouth of the
+								North Inlet estuary, June 1979 - December 1983; (4) heating and
+								cooling degree days data collected at the Charleston Airport,
+								Charleston, SC, December 1968 - April 1984. 
+						</para>
+							</section>
+					</description>
+				</methodStep>
+			</methods>			
+			<attributeList>
+				<attribute id="meiobenthicAbundance.DATE">
+					<attributeName>DATE</attributeName>
+					<attributeLabel>DATE</attributeLabel>
+					<attributeDefinition>Date when sample collected</attributeDefinition>
+					<storageType 
+						typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+					<measurementScale>
+						<dateTime>
+							<formatString>YYYY-MM-DD</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute id="meiobenthicAbundance.SITE">
+					<attributeName> SITE</attributeName>
+					<attributeLabel>SITE</attributeLabel>
+					<attributeDefinition> Site where sample was collected </attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>BB</code>
+										<definition>Bread and Butter</definition>
+									</codeDefinition>
+									<codeDefinition>
+										<code>DD</code>
+										<definition>Debidue Site</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute id="meiobenthicAbundance.NEMA">
+					<attributeName> Nematodes</attributeName>
+					<attributeLabel>NEMA</attributeLabel>
+					<attributeDefinition> density of nematodes, number per 10 square centimeter </attributeDefinition>
+					<measurementScale>
+						<interval>
+							<unit>
+								<customUnit>numberPer10CentimeterSquared</customUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+								<minimum exclusive="false">0 </minimum>
+								<maximum exclusive="false">6300</maximum>
+							    </bounds>
+							</numericDomain>
+							</interval>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="meiobenthicAbundance.COPE">
+					<attributeName> Copepods</attributeName>
+					<attributeLabel>COPE</attributeLabel>
+					<attributeDefinition> density of copepods, number per 10 square centimeter </attributeDefinition>
+					<measurementScale>
+						<interval>
+							<unit>
+								<customUnit>numberPer10CentimeterSquared</customUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+								<minimum exclusive="false">0 </minimum>
+								<maximum exclusive="false">1100</maximum>
+							</bounds>				
+							</numericDomain>
+						</interval>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="meiobenthicAbundance.NAUP">
+					<attributeName> Copepod nauplii</attributeName>
+					<attributeLabel>NAUP</attributeLabel>
+					<attributeDefinition> density of Copepod nauplii, number per 10 square centimeter</attributeDefinition>
+					<measurementScale>
+						<interval>
+							<unit>
+								<customUnit>numberPer10CentimeterSquared</customUnit>
+							</unit>
+							<precision>1</precision>							
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">0 </minimum>
+									<maximum exclusive="false">1500</maximum>
+								</bounds>
+							</numericDomain>
+						</interval>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="meiobenthicAbundance.OSTR">
+					<attributeName> Ostracods</attributeName>
+					<attributeLabel>OSTR</attributeLabel>
+					<attributeDefinition> Density of Ostracods, number per 10 square centimeter</attributeDefinition>
+					<measurementScale>
+						<interval>
+							<unit>
+								<customUnit>numberPer10CentimeterSquared</customUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">0 </minimum>
+									<maximum exclusive="false">400</maximum>
+								</bounds>
+							</numericDomain>
+						</interval>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="meiobenthicAbundance.GAST">
+					<attributeName> Gastrotrichs</attributeName>
+					<attributeLabel>GAST</attributeLabel>
+					<attributeDefinition> Density of/ Gastrotrichs,number per 10 square centimeter</attributeDefinition>
+					<measurementScale>
+						<interval>
+							<unit>
+								<customUnit>numberPer10CentimeterSquared</customUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">0 </minimum>
+									<maximum exclusive="false">1650</maximum>
+								</bounds>
+							</numericDomain>
+						</interval>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="meiobenthicAbundance.CILI">
+					<attributeName> Ciliates</attributeName>
+					<attributeLabel>CILI</attributeLabel>
+					<attributeDefinition> Density of Ciliates,number per 10 square centimeter</attributeDefinition>
+					<measurementScale>
+						<interval>
+							<unit>
+								<customUnit>numberPer10CentimeterSquared</customUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">0 </minimum>
+									<maximum exclusive="false">750</maximum>
+								</bounds>
+							</numericDomain>
+						</interval>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="meiobenthicAbundance.TURB">
+					<attributeName> Turbelarians</attributeName>
+					<attributeLabel>TURB</attributeLabel>
+					<attributeDefinition> Density of Turbelarians,number per 10 square centimeter</attributeDefinition>
+					<measurementScale>
+						<interval>
+							<unit>
+								<customUnit>numberPer10CentimeterSquared</customUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">0 </minimum>
+									<maximum exclusive="false">400</maximum>
+								</bounds>
+							</numericDomain>
+						</interval>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="meiobenthicAbundance.POLY">
+					<attributeName> Polychaetes</attributeName>
+					<attributeLabel>POLY</attributeLabel>
+					<attributeDefinition> Density of Polychaetes,number per 10 square centimeter</attributeDefinition>
+					<measurementScale>
+						<interval>
+							<unit>
+								<customUnit>numberPer10CentimeterSquared</customUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">0 </minimum>
+									<maximum exclusive="false">780</maximum>
+								</bounds>
+							</numericDomain>
+						</interval>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+				<attribute id="meiobenthicAbundance.BIVA">
+					<attributeName> Bivalves</attributeName>
+					<attributeLabel>BIVA</attributeLabel>
+					<attributeDefinition> Density of bivalves, number per 10 square centimeter</attributeDefinition>
+					<measurementScale>
+						<interval>
+							<unit>
+								<customUnit>numberPer10CentimeterSquared</customUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>real</numberType>
+								<bounds>
+									<minimum exclusive="false">0 </minimum>
+									<maximum exclusive="false">300</maximum>
+								</bounds>
+							</numericDomain>
+						</interval>
+					</measurementScale>
+					<missingValueCode>
+						<code>-99</code>
+						<codeExplanation>missing value</codeExplanation>
+					</missingValueCode>
+				</attribute>
+			</attributeList>
+			<numberOfRecords>1747</numberOfRecords>
+		</dataTable>
+	</dataset>
+	<additionalMetadata>
+		<metadata>
+			<stmml:unitList xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+				xmlns:sch="http://www.ascc.net/xml/schematron"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xmlns="http://www.xml-cml.org/schema/stmml"
+				xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/eml/eml-2.1.0/stmml.xsd">
+				<stmml:unit id="numberPer10CentimeterSquared" name="numberPer10CentimeterSquared" 
+				abbreviation="number/10cm2" unitType="arealDensity" parentSI="numberPerCentimeterSquared" 
+				multiplierToSI="0.1" constantToSI="0">
+					<stmml:description>number per 10 square centimeter</stmml:description>
+				</stmml:unit>
+				</stmml:unitList>
+		</metadata>
+		</additionalMetadata>
+</eml:eml>
+
+
+
+

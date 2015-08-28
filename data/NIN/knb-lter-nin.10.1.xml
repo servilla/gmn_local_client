@@ -1,0 +1,3178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/eml/eml-2.1.0/eml.xsd"
+    packageId="knb-lter-nin.10.1" system="knb" scope="system">
+    <access authSystem="knb" order="allowFirst">
+        <allow>
+            <principal>uid=NIN,o=LTER,dc=ecoinformatics,dc=org</principal>
+            <permission>all</permission>
+        </allow>
+        <allow>
+            <principal>public</principal>
+            <permission>read</permission>
+        </allow>
+    </access>
+    <dataset>
+        <alternateIdentifier>OLFISH</alternateIdentifier>
+        <title>LTER Oyster Landing Biweekly Fish Sampling in Oyster Landing Creek, North Inlet
+            Estuary, Georgetown, South Carolina, from 1981 to 1992, North Inlet LTER</title>
+        <creator>
+            <individualName>
+                <salutation>Dr.</salutation>
+                <givenName>Dennis</givenName>
+                <surName>Allen</surName>
+            </individualName>
+        </creator>
+        <metadataProvider>
+            <organizationName>LTER Network Office</organizationName>
+            <address>
+				<deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+				<deliveryPoint>1 University of New Mexico</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131-0001</postalCode>
+				<country>USA</country>
+			</address>
+            <phone phonetype="voice">505 277 2535</phone>
+            <phone phonetype="fax">505 277 2541</phone>
+            <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+            <onlineUrl>http://www.lternet.edu</onlineUrl>
+        </metadataProvider>
+        <pubDate>2006</pubDate>
+        <language>english</language>
+        <abstract>
+            <para>This data package consists of Biweekly Fish Sampling data in Oyster Landing Creek,
+                North Inlet Estuary, Georgetown, South Carolina, from 1981 to 1992, North Inlet
+                LTER. The purpose for the long term study of the population dynamics of fish,
+                shrimp, and crab in the North Inlet estuary are: 1) to discover the abundance,
+                distribution and life history patterns of these organisms which occur in this area;
+                2) to maintain long-term population information so it can be used to compare with
+                future short-term fish population studies proposed by investigators from USC and
+                other universities, as well as investigators at the Baruch Laboratory; and 3) to
+                relate this population information to the population dynamics of zooplankton,
+                epibenthos, benthic macrofaua, and meiofauna. </para>
+        </abstract>
+        <keywordSet>
+            <keyword keywordType="place">Oyster Landing</keyword>
+            <keyword keywordType="place">North Inlet Estuary</keyword>
+            <keyword keywordType="place">Baruch Institute</keyword>
+            <keyword keywordType="place">Georgetown, South Carolina</keyword>
+        </keywordSet>
+        <keywordSet>
+            <keyword keywordType="theme">Zooplankton</keyword>
+            <keyword keywordType="theme">abundance</keyword>
+            <keyword keywordType="theme">biomass</keyword>
+            <keyword keywordType="theme">ecosystems</keyword>
+            <keyword keywordType="theme">composition</keyword>
+            <keyword keywordType="theme">dynamics</keyword>
+            <keyword keywordType="theme">estuarine</keyword>
+            <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>populations</keyword>
+            <keywordThesaurus>LTER core research areas</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <section>
+                <title>LTER Network Data Access Requirements</title>
+                <para> The access to all LTER data is subject to requirements set forth by this
+                    policy document to enable data providers to track usage, evaluate its impact in
+                    the community, and confirm users' acceptance of the terms of acceptable use.
+                    These requirements are standardized across the LTER Network to provide
+                    contractual exchange of data between Site Data Providers, Network Data
+                    Providers, and Data Users that can be encoded into electronic form and exchanged
+                    between computers. This will allow direct access to data via a common portal
+                    once these requirements have been fulfilled. The following information may be
+                    required directly or by proxy prior to the transference of any data object: <itemizedlist>
+                        <listitem>
+                            <para> Registration </para>
+                        </listitem>
+                        <listitem>
+                            <itemizedlist>
+                                <listitem>
+                                    <para> Name </para>
+                                </listitem>
+                                <listitem>
+                                    <para> Affiliation </para>
+                                </listitem>
+                                <listitem>
+                                    <para> Email address </para>
+                                </listitem>
+                                <listitem>
+                                    <para> Full Contact Info </para>
+                                </listitem>
+                            </itemizedlist>
+                        </listitem>
+                        <listitem>
+                            <para> Acceptance of the General Public Use Agreement or Restricted Data
+                                Use Agreement, as applicable </para>
+                        </listitem>
+                        <listitem>
+                            <para> A Statement of Intended Use that is compliant with the above
+                                agreements. Such statements may be made submitted explicitly or made
+                                implicitly via the data access portal interface. </para>
+                        </listitem>
+                    </itemizedlist>
+                </para>
+            </section>
+            <section>
+                <title>Conditions of Data Use</title>
+                <para> The re-use of scientific data has the potential to greatly increase
+                    communication, collaboration and synthesis within and among disciplines, and
+                    thus is fostered, supported and encouraged. Permission to use this dataset is
+                    granted to the Data User free of charge subject to the following terms: <itemizedlist>
+                        <listitem>
+                            <para> Acceptable Use. Use of the dataset will be restricted to
+                                academic, research, educational, government, recreational, or other
+                                not-for-profit professional purposes. The Data User is permitted to
+                                produce and distribute derived works from this dataset provided that
+                                they are released under the same license terms as those accompanying
+                                this Data Set. Any other uses for the Data Set or its derived
+                                products will require explicit permission from the dataset owner.
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para> Redistribution. The data are provided for use by the Data User.
+                                The metadata and this license must accompany all copies made and be
+                                available to all users of this Data Set. The Data User will not
+                                redistribute the original Data Set beyond this collaboration sphere.
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para> Citation. It is considered a matter of professional ethics to
+                                acknowledge the work of other scientists. Thus, the Data User will
+                                properly cite the Data Set in any publications or in the metadata of
+                                any derived data products that were produced using the Data Set.
+                                Citation should take the following general form: Creator, Year of
+                                Data Publication, Title of Dataset, Publisher, Dataset identifier.
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para> Acknowledgement. The Data User should acknowledge any
+                                institutional support or specific funding awards referenced in the
+                                metadata accompanying this dataset in any publications where the
+                                Data Set contributed significantly to its content. Acknowledgements
+                                should identify the supporting party, the party that received the
+                                support, and any identifying information such as grant numbers.
+                            </para>
+                        </listitem>
+                        <listitem>
+                            <para> Notification. The Data User will notify the Data Set Contact when
+                                any derivative work or publication based on or derived from the Data
+                                Set is distributed. The Data User will provide the data contact with
+                                two reprints of any publications resulting from use of the Data Set
+                                and will provide copies, or on-line access to, any derived digital
+                                products. Notification will include an explanation of how the Data
+                                Set was used to produce the derived work. </para>
+                        </listitem>
+                        <listitem>
+                            <para> Collaboration. The Data Set has been released in the spirit of
+                                open scientific collaboration. Data Users are thus strongly
+                                encouraged to consider consultation, collaboration and/or
+                                co-authorship with the Data Set Creator. </para>
+                        </listitem>
+                    </itemizedlist> By accepting this Data Set, the Data User agrees to abide by the
+                    terms of this agreement. The Data Owner shall have the right to terminate this
+                    agreement immediately by written notice upon the Data User's breach of, or
+                    non-compliance with, any of its terms. The Data User may be held responsible for
+                    any misuse that is caused or encouraged by the Data User's failure to abide by
+                    the terms of this agreement. </para>
+            </section>
+            <section>
+                <title>Disclaimer</title>
+                <para> While substantial efforts are made to ensure the accuracy of data and
+                    documentation contained in this Data Set, complete accuracy of data and metadata
+                    cannot be guaranteed. All data and metadata are made available "as is". The Data
+                    User holds all parties involved in the production or distribution of the Data
+                    Set harmless for damages resulting from its use or interpretation. </para>
+            </section>
+        </intellectualRights>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>North Inlet encompasses about 2,630 hectares of tidal marshes
+                    and wetlands near Georgetown, South Carolina, USA. North Inlet-Winyah Bay
+                    features high quality, ocean-dominated waters and salt marshes in North Inlet,
+                    contrasting with the brackish waters and marshes of Winyah Bay. The bay estuary
+                    is dominated by riverine discharges from a watershed impacted by agricultural,
+                    municipal and industrial development. Former rice fields and canals provide
+                    another system for study within the Reserve.The North Inlet LTER site is located 
+                    on the eastern shore of the Atlantic Ocean, in a small tidal estuary near Georgetown, 
+                    South Carolina, U.S.A. Coordinates for the North Inlet estuary are latitude 
+                    79 degrees 10 minutes and longitude 33 degrees 11 minutes. 
+                    The Hobcaw Barony property is bordered by the Debordieu Colony property
+                    and Highway 17 to the north. Winyah Bay borders the Hobcaw Barony peninsula to the 
+                    south and west. It is located in Georgetown County, South Carolina, USA. 
+                    The North Inlet Estuary lies east of the uplands of Hobcaw Barony and contains
+                    Crab Haul Creek, where the Oyster Landing pier and research site are located.
+                    
+                    The Oyster Landing (OA now called OL) LTER sampling site is a small
+                    subtidal creek pool which is practically isolated from the rest of the
+                    creek during a good low tide.  The pool is 13.7 m wide and 22.4 m long, 
+                    and the maximum depth is 90 cm on an average low tide. The upstream block
+                    net site is 7.0 m wide, and its depth averages 20 cm. The downstream
+                    blocknet site is 6.2 m wide and also averages about 20 cm in depth. The
+                    bottom substrate is primarily muddy with scattered oyster shells.  After 
+                    a heavy rain, a soft, fluffy, flocculent layer settles near and in the
+                    deepest portion of the pool.  The pool is surrounded by Spartina
+                    alterniflora along the steepest banks and live oyster reefs occur on one
+                    side of the pool's inflow and outflow sites (block net sites).
+                    
+                    The water quality of the Oyster Landing pool is influenced drastically by 
+                    external conditions:  Salinity ranges from 1 ppt during heavy rains to 35 
+                    ppm during droughts, extremely high tides, or strong easterly winds.  
+                    Water temperatures range from 3 degrees C in winter to 38 degrees C during
+                    the summer months.  The head waters of this tidal creek originate from a
+                    nearby surrounding forest (approximately 1000 m distance from the OL pool).
+                    During drought conditions, the creek beds in the forest dry up, thereby
+                    preventing freshwater input from the forest.
+                    
+                    The OB sampling site of the LTER Oyster Landing project is about 100 m 
+                    downstream from the regular OL (OA) sampling site. This site was sampled
+                    the first year of the study (samples 1-26). The OB pool occurs slightly
+                    downstream of the junction of Oyster Landing creek and the manmade 
+                    drainage creek (causeway canal).  This pool is not nearly as isolated as
+                    the OL tidal pool during low tide.  The dimensions of the pool are about 
+                    15 m by 20 m and approximately 1.3 m in depth at low tide. The inflow and
+                    outflow areas of this pool have depths which average about 60 cm during a
+                    good low tide. An oyster bar lines the northern bank while very soft mud
+                    occurs on the opposite shore.  A mosaic of soft and hard mud intermixed
+                    with oyster shells dominates the pool bottom. Spartina alternifora is the
+                    dominant plant surrounding the OB site.
+                </geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-79.270</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-79.153</eastBoundingCoordinate>
+                    <northBoundingCoordinate>33.366</northBoundingCoordinate>
+                    <southBoundingCoordinate>33.296</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+                <geographicDescription>Oyster Landing in
+                    Crab Haul Creek 33.21'2" Lat., 79.11'27" Long.</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-79.1175</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-79.1175</eastBoundingCoordinate>
+                    <northBoundingCoordinate>33.2106</northBoundingCoordinate>
+                    <southBoundingCoordinate>33.2106</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>1983-04-15</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>1992-12-06</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+        </coverage>
+        <maintenance>
+            <description>
+                <section>
+                    <title>Entry verification</title>
+                    <para> Multiple levels of entry verification are performed. Abundance data were
+                        initially checked for entry errors up to sample 69 by Beth Thomas (the data
+                        management assistant) who originally entered the data. Once all data entry
+                        errors are corrected, hard copies of the data were sent to Ginger Ogburn-
+                        Matthews (the research Specialist who counted the samples) to proof against
+                        the original raw data sheets. All abundance, biomass, length, and physical
+                        data on the system from samples 1-234 (4/15/93 to 9/9/92 have been certified
+                        error-free by Ginger Ogburn-Matthews (date 7/28/93). </para>
+                </section>
+                <section>
+                    <title>Date of last update while at North Inlet LTER</title>
+                    <para>September 9, 1992</para>
+                </section>
+                <section>
+                    <title>Last modification at LTER Network Office</title>
+                    <para>Individual data files (LTER.NIN.OLFISH.1983.txt, LTER.NIN.OLFISH.1984.txt,
+                        LTER.NIN.OLFISH.1985.txt,LTER.NIN.OLFISH.1986.txt, LTER.NIN.OLFISH.1987.txt,
+                        LTER.NIN.OLFISH.1988.txt,LTER.NIN.OLFISH.1989.txt, LTER.NIN.OLFISH.1990.txt,
+                        LTER.NIN.OLFISH.1991.txt,LTER.NIN.OLFISH.1992.txt) were concatenated into a
+                        single file spanning the dates from 1983 to 1992. Original fixed column
+                        format was changed to comma separated value format. These changes occured in
+                        April 2012</para>
+                </section>
+            </description>
+        </maintenance>
+        <contact>
+            <positionName>Information Manager</positionName>
+            <organizationName>LTER Network Office</organizationName>
+            <address>
+				<deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+				<deliveryPoint>1 University of New Mexico</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131-0001</postalCode>
+				<country>USA</country>
+			</address>
+            <phone phonetype="voice">505 277 2535</phone>
+            <phone phonetype="fax">505 277 2541</phone>
+            <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+            <onlineUrl>http://www.lternet.edu</onlineUrl>
+        </contact>
+        <publisher>
+            <organizationName>LTER Network Office</organizationName>
+            <address>
+				<deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+				<deliveryPoint>1 University of New Mexico</deliveryPoint>
+				<city>Albuquerque</city>
+				<administrativeArea>NM</administrativeArea>
+				<postalCode>87131-0001</postalCode>
+				<country>USA</country>
+			</address>
+            <phone phonetype="voice">505 277 2535</phone>
+            <phone phonetype="fax">505 277 2541</phone>
+            <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+            <onlineUrl>http://www.lternet.edu</onlineUrl>
+        </publisher>
+        <pubPlace>Long Term Ecological Research Network Office</pubPlace>
+        <dataTable id="OysterLandingFish">
+            <entityName>OysterLandingFish-NIN-LTER-1981-1992</entityName>
+            <entityDescription>LTER Oyster Landing Biweekly Fish Sampling in Oyster Landing Creek, North Inlet
+                Estuary, Georgetown, South Carolina, from 1983 to 1992, North Inlet LTER</entityDescription>
+            <physical>
+                <objectName>LTER.NIN.OLFISH.csv</objectName>
+                <size unit="byte">2015000</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>\r\n</recordDelimiter>
+                        <physicalLineDelimiter>\r\n</physicalLineDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                            <quoteCharacter>"</quoteCharacter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download"
+                            >http://nis.lternet.edu/NIN/data/LTER.NIN.OLFISH.csv</url>
+                    </online>
+                    <access authSystem="knb" order="allowFirst">
+                        <allow>
+                            <principal>uid=NIN,o=LTER,dc=ecoinformatics,dc=org</principal>
+                            <permission>all</permission>
+                        </allow>
+                        <allow>
+                            <principal>public</principal>
+                            <permission>read</permission>
+                        </allow>
+                    </access>
+                </distribution>
+            </physical>
+            <coverage>
+                <geographicCoverage>
+                    <geographicDescription>North Inlet encompasses about 2,630 hectares of tidal marshes
+                        and wetlands near Georgetown, South Carolina, USA. North Inlet-Winyah Bay
+                        features high quality, ocean-dominated waters and salt marshes in North Inlet,
+                        contrasting with the brackish waters and marshes of Winyah Bay. The bay estuary
+                        is dominated by riverine discharges from a watershed impacted by agricultural,
+                        municipal and industrial development. Former rice fields and canals provide
+                        another system for study within the Reserve.The North Inlet LTER site is located 
+                        on the eastern shore of the Atlantic Ocean, in a small tidal estuary near Georgetown, 
+                        South Carolina, U.S.A. Coordinates for the North Inlet estuary are latitude 
+                        79 degrees 10 minutes and longitude 33 degrees 11 minutes. 
+                        The Hobcaw Barony property is bordered by the Debordieu Colony property
+                        and Highway 17 to the north. Winyah Bay borders the Hobcaw Barony peninsula to the 
+                        south and west. It is located in Georgetown County, South Carolina, USA. 
+                        The North Inlet Estuary lies east of the uplands of Hobcaw Barony and contains
+                        Crab Haul Creek, where the Oyster Landing pier and research site are located.
+                        
+                        The Oyster Landing (OA now called OL) LTER sampling site is a small
+                        subtidal creek pool which is practically isolated from the rest of the
+                        creek during a good low tide.  The pool is 13.7 m wide and 22.4 m long, 
+                        and the maximum depth is 90 cm on an average low tide. The upstream block
+                        net site is 7.0 m wide, and its depth averages 20 cm. The downstream
+                        blocknet site is 6.2 m wide and also averages about 20 cm in depth. The
+                        bottom substrate is primarily muddy with scattered oyster shells.  After 
+                        a heavy rain, a soft, fluffy, flocculent layer settles near and in the
+                        deepest portion of the pool.  The pool is surrounded by Spartina
+                        alterniflora along the steepest banks and live oyster reefs occur on one
+                        side of the pool's inflow and outflow sites (block net sites).
+                        
+                        The water quality of the Oyster Landing pool is influenced drastically by 
+                        external conditions:  Salinity ranges from 1 ppt during heavy rains to 35 
+                        ppm during droughts, extremely high tides, or strong easterly winds.  
+                        Water temperatures range from 3 degrees C in winter to 38 degrees C during
+                        the summer months.  The head waters of this tidal creek originate from a
+                        nearby surrounding forest (approximately 1000 m distance from the OL pool).
+                        During drought conditions, the creek beds in the forest dry up, thereby
+                        preventing freshwater input from the forest.
+                        
+                        The OB sampling site of the LTER Oyster Landing project is about 100 m 
+                        downstream from the regular OL (OA) sampling site. This site was sampled
+                        the first year of the study (samples 1-26). The OB pool occurs slightly
+                        downstream of the junction of Oyster Landing creek and the manmade 
+                        drainage creek (causeway canal).  This pool is not nearly as isolated as
+                        the OL tidal pool during low tide.  The dimensions of the pool are about 
+                        15 m by 20 m and approximately 1.3 m in depth at low tide. The inflow and
+                        outflow areas of this pool have depths which average about 60 cm during a
+                        good low tide. An oyster bar lines the northern bank while very soft mud
+                        occurs on the opposite shore.  A mosaic of soft and hard mud intermixed
+                        with oyster shells dominates the pool bottom. Spartina alternifora is the
+                        dominant plant surrounding the OB site.                        
+                    </geographicDescription>
+                    <boundingCoordinates>
+                        <westBoundingCoordinate>-79.270</westBoundingCoordinate>
+                        <eastBoundingCoordinate>-79.153</eastBoundingCoordinate>
+                        <northBoundingCoordinate>33.366</northBoundingCoordinate>
+                        <southBoundingCoordinate>33.296</southBoundingCoordinate>
+                    </boundingCoordinates>
+                </geographicCoverage>
+                <geographicCoverage>
+                    <geographicDescription>Oyster Landing in
+                        Crab Haul Creek 33.21'2" Lat., 79.11'27" Long.</geographicDescription>
+                    <boundingCoordinates>
+                        <westBoundingCoordinate>-79.1175</westBoundingCoordinate>
+                        <eastBoundingCoordinate>-79.1175</eastBoundingCoordinate>
+                        <northBoundingCoordinate>33.2106</northBoundingCoordinate>
+                        <southBoundingCoordinate>33.2106</southBoundingCoordinate>
+                    </boundingCoordinates>
+                </geographicCoverage>
+                <temporalCoverage>
+                    <rangeOfDates>
+                        <beginDate>
+                            <calendarDate>1983-04-15</calendarDate>
+                        </beginDate>
+                        <endDate>
+                            <calendarDate>1992-12-06</calendarDate>
+                        </endDate>
+                    </rangeOfDates>
+                </temporalCoverage>
+            </coverage>
+            <methods>
+                <methodStep>
+                    <description>
+                        <section>
+                            <title>Experimental Design</title>
+                            <para>1/4" bag seine collections for sampling fish, shrimp and crab were
+                                taken on a biweekly basis beginning the 15 April 1983 to 9 September
+                                1993. OL sampling dates were scheduled so that there were no less
+                                than 10 days nor more than 18 days between samplings. Also, these
+                                sampling dates were scheduled closely to the regular LTER faunal
+                                cruises (within 4 days). Collections of organisms occurred in the
+                                afternoon about the same time of day (1200-1600) and during the same
+                                tidal stage (at dead low tide). Physical data were taken prior to
+                                seine collections. Air and water temperatures were measured by a
+                                mercury filled thermometer. Continuous water temperature readings
+                                were recorded on a paper scroll by a Ryan brand thermograph which
+                                was deployed in the deepest hole of the pool. As of 11/26/85, the
+                                water level or tidal height in the pool was measured by a 10 cm
+                                marked wooden staff. Salinity was determined to the nearest part per
+                                thousand by a refractometer either in the laboratory or in the
+                                field. Beginning 11/4/86, dissolved oxygen (D.O.) was measured in
+                                mg/l by a D.O. meter after calibrating the instrument. D.O.
+                                titrations began on 8/24/87, and a D.O. meter was no longer used. </para>
+                            <para> Field Collections: Upon reaching about 5 m away from the OL LTER
+                                sampling pool, two people would walk around the pool, through the
+                                Spartina grass via the marsh swinging wide around the pool itself so
+                                as not to "spook" the fish present there. When reaching the inflow
+                                and outflow constriction areas of the pool, a 6 mm (1/4") mesh net
+                                was stretched across the inflow and outflow areas of the creek as
+                                quickly as possible. This would, in effect, 'block off' the pool and
+                                prevent fishes from entering or exiting the pool. The lead line of
+                                each block net was secured into the sandy bottom, and oyster shells
+                                (which prevented the lead line from lying properly on the bottom)
+                                were removed. After physical data were recorded, a 15.24 m long 1.22
+                                wide 6 mm mesh bag seine was pulled across the pool beginning on the
+                                east side and moving to the western shore (against the ebbing tide).
+                                Fish, shrimp, and crab were placed in 5 gallon buckets or in 20
+                                gallon plastic bags. The second seine haul moving in the opposite
+                                direction (west to east) was taken immediately after emptying the
+                                first seine haul. Organisms from the second seine were placed in
+                                separate buckets or bags. Both seine hauls were taken immediately to
+                                the laboratory for sorting and processing. </para>
+                            <para> Laboratory Processing: Each seine haul was processed separately
+                                in the laboratory. Organisms were placed into a large 1/4" mesh dip
+                                net, rinsed continuously with sea water, and sorted by species into
+                                separate containers until the entire seine sample was completely
+                                sorted. </para>
+                            <para> If over 100 individuals of a particular species were captured,
+                                100 individuals were randomly selected to be measured (if less than
+                                100 - all were measured). The total weight for each species was
+                                measured to the nearest tenth of a gram. The total number of
+                                individuals of a particular species was determined by counting (if
+                                the number was less than 200). However, if the total number of
+                                individuals was larger than 200, then the 100 individuals which were
+                                measured were weighed together, giving a subsample weight. The total
+                                number of individuals was calculated from the total weight and
+                                subsample weight for that species. </para>
+                            <para> As standard units of measure, all bony fishes were measured to
+                                standard length, decapod crabs were to carapace width, decapod
+                                shrimp to carapace length, and squids to mantle length. All lengths
+                                taken were to the nearest millimeter. After lengths and weights had
+                                been recorded for each species, a representative number of
+                                individuals from each species were preserved in glass jars in 10 %
+                                buffered formalin. All sample jars were labelled with collection
+                                information and were placed with the other LTER samples. When
+                                catches were so large that all the fishes could not be processed the
+                                same day, the organisms were either preserved (primarily in 1983) or
+                                rinsed in seawater, covered in airtight plastic bags, and placed in
+                                cold storage overnight to be worked up the next day. </para>
+                            <para> Modifications in sample processing procedures: The purpose of
+                                procedural changes was to reduce the amount of time spent working up
+                                samples on the day of collection during the nine months of the year
+                                that only two or three people are available to help. At the same
+                                time, we will have sufficiently large sample sizes and information
+                                to maintain the integrity of the long-term dataset and conduct the
+                                same kinds of analyses and comparisons that we have been able to do
+                                with the complete processing of both hauls. No changes in the
+                                collection protocol will be made. </para>
+                            <para> From biweekly sample #136 (9-23-88) to #152 (5-18-89), the
+                                following processing procedure was used: </para>
+                            <para> 1. No changes in the processing procedure for haul no. 1 (OL I)
+                                were made. 2. If the volume of haul no. 2 (OL II) was less than or
+                                equal to 4 gallons (80% of a pickle bucket), the entire collection
+                                was processed according to the procedure used for OL I. Regardless
+                                of the volume of OL II, the total weight of the catch was recorded.
+                                3. If the volume of OL II was greater than 4 gal., 20% of the total
+                                weight of that collection was sorted by species and the following
+                                information was recorded: </para>
+                            <para> A. Total number of individuals of each species B. Weight
+                                (biomass) of each species </para>
+                            <para> C. Lengths of individuals according to these criteria: 1. If
+                                lengths for 30 or more individuals of a species were obtained from
+                                OL I, no additional lengths were taken from OL II. This minimum of
+                                30 was based on the requirement for most statistical comparisons of
+                                two samples (e.g. K-S test) to have an n > 25. </para>
+                            <para> 2. If lengths for more than 15 but less than 30 individuals of a
+                                species were obtained from OL I, we measured as many additional
+                                individuals from OL II as necessary to increase the sample size to
+                                greater than 30 (if possible, even if specimens needed to be
+                                isolated from the 80% of OL II not sorted) </para>
+                            <para> 3. If lengths for less than 15 individuals were available fromOL
+                                I, no additional lengths were taken from OL II. (If there were not
+                                15 in OL I, it is unlikely a large enough sample (n > 25) can be
+                                obtained with what is present in OL II). </para>
+                            <para> Variables for data analysis: Total catch biomass: no change, OL I
+                                + OL II = total Total number of individuals: OL I (no change) + OL
+                                II (based on adjusted counts of speciesfrom 20% of OL II catch) =
+                                total Total number of species: only no. of species in OL I will be
+                                used Number of individuals by species: OL I (no change) + OL II
+                                (based on adjusted counts from 20% of OL II, equals 5 times OL II
+                                subsample) Biomass of each species: OL I (no change) + OL II (based
+                                on adjusted weights from 20% of OL II, equals 5 times OL II
+                                subsample) Length of species: up to 100 individuals from OL I (no
+                                change) + additional data from OL II for less common species. </para>
+                            <para> Subsampling of collections by weight in the field and laboratory
+                                (6-2-89 #153 to the present): #153 OLI subsampled in laboratory, two
+                                buckets totally worked up and 13% of the total weight of three
+                                buckets worked up. OLII all worked up #155 OLII lengths only taken
+                                for those species in OLI with between 15 and 30 lengths, abundance
+                                and biomass are correct for total OLII catch #157 OLI one - half of
+                                sample sorted and worked up, rest subsampled, OLII subsampled by
+                                prototcol #159 OLI and OLII shrimp and detritus had 1/2 of
+                                collection totally worked up, rest subsampled #160 OLI and OLII
+                                shrimp subsampled all other species worked up #179 OLII subsampled
+                                by weight not by protocol above #203 OLII subsampled by weight not
+                                by protocol (fish had rotted) #204 OLI and OLII shrimp subsampled by
+                                weight #205 OLI and OLII began releasing fish in field and counting
+                                the number of buckets released. Were killing too many fish that were
+                                not to be processed (were subsampled). </para>
+                            <para> Weights of buckets were taken when taken into lab for processing.
+                                OLI two-three buckets kept for lab processing; OLII no more than two
+                                buckets were kept for lab processing. Numbers of species were
+                                adjusted in the Easy Entry program after calculations were tallied
+                                from species weights. </para>
+                        </section>
+                        <section>
+                            <title>Research Methods</title>
+                            <para>Sampling Irregularities, Additional Sampling, and Missing
+                                Data:</para>
+                        </section><section>
+                            <title>1) Site selection and method changes:</title>
+                            <para> The first year of sampling at Oyster Landing (samples 1-26), two
+                                sites, OA and OB, were sampled biweekly during low tide. The two
+                                seine hauls taken at each site were combined together as 1 sample,
+                                and the organisms were processed together as well. Block nets which
+                                isolate fishes in the pools were not used at OA nor OB prior to
+                                seining. At sample 27, the OB site was dropped and block nets were
+                                used at the OA site. The OA site at this time became the OL sampling
+                                site, so as not to confuse the two different types of data
+                                collection and data workup. There had to be a way to distinguish
+                                between the samples prior to and after sample 27. </para>
+                        </section>
+                        <section>
+                            <title> 2) Depletion/Efficiency Study:</title>
+                            <para> The purpose of this study was to determine how the regular two
+                                seine samplings represented the entire fish, shrimp, and crab
+                                populations occurring in the Oyster Landing pool during different
+                                seasons of the year. Fifteen seine hauls began during sample #27 and
+                                continued for two to three month intervals for 2 years. A dose of
+                                rotenone was applied during sample # 105 and #123 after the 15th
+                                seine haul. This was done to evaluate our regular depletion study.
+                                The following table gives the sample number and date upon which
+                                efficiency and rotenone samplings were undertaken: </para>
+                            <para> Sample Date Number 1. 27 1MAY84 2. 32 12JUL84 3. 37 24SEP84 4. 42
+                                7DEC84 5. 48 7MAR85 6. 56 1JUL85 7. 63 14OCT85 8. 67 10DEC85 9. 74
+                                25MAR86 10. 105 24JUN87 (Rotenone) 11. 123 16MAR88 (Rotenone) </para>
+                            <para> Fishes, shrimp, and crabs collected during the 15 seine depletion
+                                study or rotenone study were processed in the laboratory identically
+                                to the regular 2 seine haul collections. </para>
+                        </section><section>
+                            <title>3) Missing Data:</title>
+                            <para> a. One biweekly sampling date was missed due to severe high
+                                tides. These occurred over several days so there were no seines
+                                taken for Cruise #41. </para>
+                            <para> b. OL II for Cruise #136 was not worked up in entirely. Only
+                                weights for the total catch and individual species were measured.
+                                Lengths and numbers of individual species were estimated using OLI
+                                sample haul. As a result the new protocol described above was
+                                established to handle OLII catches that are so large. OLII catches
+                                during the fall and winter (after #136) have all been worked up,
+                                since they were less than 4 gallons. It is expected that collections
+                                in the spring will have to be subsampled. </para>
+                        </section><section>
+                            <title>4) Species Identification:</title>
+                            <para> The following genera were beyond the scope of the technical
+                                staff's expertise to identify to species: A - Callinectes B - Caranx
+                                (juveniles) C - Citharichthys (juveniles) </para>
+                        </section>
+                        <section>
+                            <title>5) Weights</title>
+                            <para> Samples 161 and 162 immediately after Hurricane Hugo had species
+                                and total weights measured with spring scales not the electronic
+                                balance because the lack of electricity. The spring scales appeared
+                                to stick and not be accurate especially for sample 162. </para>
+                        </section>
+                    </description>
+                </methodStep>
+            </methods>
+            <attributeList>
+                <attribute id="OysterLandingFish.DATE">
+                    <attributeName>DATE</attributeName>
+                    <attributeLabel>Date</attributeLabel>
+                    <attributeDefinition>Date when sample collected</attributeDefinition>
+                    <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY-MM-DD</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="OysterLandingFish.SAMPLE">
+                    <attributeName>SAMPLE</attributeName>
+                    <attributeLabel>Sample Period</attributeLabel>
+                    <attributeDefinition>Sample period,sequential number in ascending order </attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>whole</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">1 </minimum>
+                                    <maximum exclusive="false">228</maximum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="OysterLandingFish.REPLICAT">
+                    <attributeName> Replicate</attributeName>
+                    <attributeLabel> REPLICAT</attributeLabel>
+                    <attributeDefinition> numeric sequence to identify the replicate </attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">1 </minimum>
+                                    <maximum exclusive="false">2</maximum>
+                                </bounds>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.SPECIES">
+                    <attributeName>Species Code </attributeName>
+                    <attributeLabel>SPECIES</attributeLabel>
+                    <attributeDefinition>Species code, sequential numbering</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">1 </minimum>
+                                    <maximum exclusive="false">149</maximum>
+                                </bounds>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+
+                <attribute id="OysterLandingFish.TOTWT">
+                    <attributeName>total weight</attributeName>
+                    <attributeLabel>TOTWT</attributeLabel>
+                    <attributeDefinition>Biomass, total weight per cubic meter</attributeDefinition>
+                    <storageType>float</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>gram</standardUnit>
+                            </unit>
+                            <precision>0.1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.TOTNUM">
+                    <attributeName>Total number of individuals</attributeName>
+                    <attributeLabel>TOTNUM</attributeLabel>
+                    <attributeDefinition>Abundance, total number of individuals; parts of animals were added to total weight of species but not
+                        counted as a portion of a whole organism.</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN1">
+                    <attributeName>lengths1</attributeName>
+                    <attributeLabel>LEN1</attributeLabel>
+                    <attributeDefinition>lengths1 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN2">
+                    <attributeName>lengths2</attributeName>
+                    <attributeLabel>LEN2</attributeLabel>
+                    <attributeDefinition>lengths2 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN3">
+                    <attributeName>lengths3</attributeName>
+                    <attributeLabel>LEN3</attributeLabel>
+                    <attributeDefinition>lengths3 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN4">
+                    <attributeName>lengths4</attributeName>
+                    <attributeLabel>LEN4</attributeLabel>
+                    <attributeDefinition>lengths4 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN5">
+                    <attributeName>lengths5</attributeName>
+                    <attributeLabel>LEN5</attributeLabel>
+                    <attributeDefinition>lengths5 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN6">
+                    <attributeName>lengths6</attributeName>
+                    <attributeLabel>LEN6</attributeLabel>
+                    <attributeDefinition>lengths6 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN7">
+                    <attributeName>lengths7</attributeName>
+                    <attributeLabel>LEN7</attributeLabel>
+                    <attributeDefinition>lengths7 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN8">
+                    <attributeName>lengths8</attributeName>
+                    <attributeLabel>LEN8</attributeLabel>
+                    <attributeDefinition>lengths8 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN9">
+                    <attributeName>lengths9</attributeName>
+                    <attributeLabel>LEN9</attributeLabel>
+                    <attributeDefinition>lengths9 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN10">
+                    <attributeName>lengths10</attributeName>
+                    <attributeLabel>LEN10</attributeLabel>
+                    <attributeDefinition>lengths10 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN11">
+                    <attributeName>lengths11</attributeName>
+                    <attributeLabel>LEN11</attributeLabel>
+                    <attributeDefinition>lengths11 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN12">
+                    <attributeName>lengths12</attributeName>
+                    <attributeLabel>LEN12</attributeLabel>
+                    <attributeDefinition>lengths12 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN13">
+                    <attributeName>lengths13</attributeName>
+                    <attributeLabel>LEN13</attributeLabel>
+                    <attributeDefinition>lengths13 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN14">
+                    <attributeName>lengths14</attributeName>
+                    <attributeLabel>LEN14</attributeLabel>
+                    <attributeDefinition>lengths14 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN15">
+                    <attributeName>lengths15</attributeName>
+                    <attributeLabel>LEN15</attributeLabel>
+                    <attributeDefinition>lengths15 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN16">
+                    <attributeName>lengths16</attributeName>
+                    <attributeLabel>LEN16</attributeLabel>
+                    <attributeDefinition>lengths16 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN17">
+                    <attributeName>lengths17</attributeName>
+                    <attributeLabel>LEN17</attributeLabel>
+                    <attributeDefinition>lengths17 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN18">
+                    <attributeName>lengths18</attributeName>
+                    <attributeLabel>LEN18</attributeLabel>
+                    <attributeDefinition>lengths18 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN19">
+                    <attributeName>lengths19</attributeName>
+                    <attributeLabel>LEN19</attributeLabel>
+                    <attributeDefinition>lengths19 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN20">
+                    <attributeName>lengths20</attributeName>
+                    <attributeLabel>LEN20</attributeLabel>
+                    <attributeDefinition>lengths20 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN21">
+                    <attributeName>lengths21</attributeName>
+                    <attributeLabel>LEN21</attributeLabel>
+                    <attributeDefinition>lengths21 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN22">
+                    <attributeName>lengths22</attributeName>
+                    <attributeLabel>LEN22</attributeLabel>
+                    <attributeDefinition>lengths22 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN23">
+                    <attributeName>lengths23</attributeName>
+                    <attributeLabel>LEN23</attributeLabel>
+                    <attributeDefinition>lengths23 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN24">
+                    <attributeName>lengths24</attributeName>
+                    <attributeLabel>LEN24</attributeLabel>
+                    <attributeDefinition>lengths24 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN25">
+                    <attributeName>lengths25</attributeName>
+                    <attributeLabel>LEN25</attributeLabel>
+                    <attributeDefinition>lengths25 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN26">
+                    <attributeName>lengths26</attributeName>
+                    <attributeLabel>LEN26</attributeLabel>
+                    <attributeDefinition>lengths26 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN27">
+                    <attributeName>lengths27</attributeName>
+                    <attributeLabel>LEN27</attributeLabel>
+                    <attributeDefinition>lengths27 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN28">
+                    <attributeName>lengths28</attributeName>
+                    <attributeLabel>LEN28</attributeLabel>
+                    <attributeDefinition>lengths28 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN29">
+                    <attributeName>lengths29</attributeName>
+                    <attributeLabel>LEN29</attributeLabel>
+                    <attributeDefinition>lengths29 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN30">
+                    <attributeName>lengths30</attributeName>
+                    <attributeLabel>LEN30</attributeLabel>
+                    <attributeDefinition>lengths30 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN31">
+                    <attributeName>lengths31</attributeName>
+                    <attributeLabel>LEN31</attributeLabel>
+                    <attributeDefinition>lengths31 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN32">
+                    <attributeName>lengths32</attributeName>
+                    <attributeLabel>LEN32</attributeLabel>
+                    <attributeDefinition>lengths32 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN33">
+                    <attributeName>lengths33</attributeName>
+                    <attributeLabel>LEN33</attributeLabel>
+                    <attributeDefinition>lengths33 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN34">
+                    <attributeName>lengths34</attributeName>
+                    <attributeLabel>LEN34</attributeLabel>
+                    <attributeDefinition>lengths34 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN35">
+                    <attributeName>lengths35</attributeName>
+                    <attributeLabel>LEN35</attributeLabel>
+                    <attributeDefinition>lengths35 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN36">
+                    <attributeName>lengths36</attributeName>
+                    <attributeLabel>LEN36</attributeLabel>
+                    <attributeDefinition>lengths36 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN37">
+                    <attributeName>lengths37</attributeName>
+                    <attributeLabel>LEN37</attributeLabel>
+                    <attributeDefinition>lengths37 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN38">
+                    <attributeName>lengths38</attributeName>
+                    <attributeLabel>LEN38</attributeLabel>
+                    <attributeDefinition>lengths38 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN39">
+                    <attributeName>lengths39</attributeName>
+                    <attributeLabel>LEN39</attributeLabel>
+                    <attributeDefinition>lengths39 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN40">
+                    <attributeName>lengths40</attributeName>
+                    <attributeLabel>LEN40</attributeLabel>
+                    <attributeDefinition>lengths40 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN41">
+                    <attributeName>lengths41</attributeName>
+                    <attributeLabel>LEN41</attributeLabel>
+                    <attributeDefinition>lengths41 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN42">
+                    <attributeName>lengths42</attributeName>
+                    <attributeLabel>LEN42</attributeLabel>
+                    <attributeDefinition>lengths42 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN43">
+                    <attributeName>lengths43</attributeName>
+                    <attributeLabel>LEN43</attributeLabel>
+                    <attributeDefinition>lengths43 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN44">
+                    <attributeName>lengths44</attributeName>
+                    <attributeLabel>LEN44</attributeLabel>
+                    <attributeDefinition>lengths44 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN45">
+                    <attributeName>lengths45</attributeName>
+                    <attributeLabel>LEN45</attributeLabel>
+                    <attributeDefinition>lengths45 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN46">
+                    <attributeName>lengths46</attributeName>
+                    <attributeLabel>LEN46</attributeLabel>
+                    <attributeDefinition>lengths46 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN47">
+                    <attributeName>lengths47</attributeName>
+                    <attributeLabel>LEN47</attributeLabel>
+                    <attributeDefinition>lengths47 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN48">
+                    <attributeName>lengths48</attributeName>
+                    <attributeLabel>LEN48</attributeLabel>
+                    <attributeDefinition>lengths48 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN49">
+                    <attributeName>lengths49</attributeName>
+                    <attributeLabel>LEN49</attributeLabel>
+                    <attributeDefinition>lengths49 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN50">
+                    <attributeName>lengths50</attributeName>
+                    <attributeLabel>LEN50</attributeLabel>
+                    <attributeDefinition>lengths50 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN51">
+                    <attributeName>lengths51</attributeName>
+                    <attributeLabel>LEN51</attributeLabel>
+                    <attributeDefinition>lengths51 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN52">
+                    <attributeName>lengths52</attributeName>
+                    <attributeLabel>LEN52</attributeLabel>
+                    <attributeDefinition>lengths52 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN53">
+                    <attributeName>lengths53</attributeName>
+                    <attributeLabel>LEN53</attributeLabel>
+                    <attributeDefinition>lengths53 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN54">
+                    <attributeName>lengths54</attributeName>
+                    <attributeLabel>LEN54</attributeLabel>
+                    <attributeDefinition>lengths54 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN55">
+                    <attributeName>lengths55</attributeName>
+                    <attributeLabel>LEN55</attributeLabel>
+                    <attributeDefinition>lengths55 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN56">
+                    <attributeName>lengths56</attributeName>
+                    <attributeLabel>LEN56</attributeLabel>
+                    <attributeDefinition>lengths56 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN57">
+                    <attributeName>lengths57</attributeName>
+                    <attributeLabel>LEN57</attributeLabel>
+                    <attributeDefinition>lengths57 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN58">
+                    <attributeName>lengths58</attributeName>
+                    <attributeLabel>LEN58</attributeLabel>
+                    <attributeDefinition>lengths58 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN59">
+                    <attributeName>lengths59</attributeName>
+                    <attributeLabel>LEN59</attributeLabel>
+                    <attributeDefinition>lengths59 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN60">
+                    <attributeName>lengths60</attributeName>
+                    <attributeLabel>LEN60</attributeLabel>
+                    <attributeDefinition>lengths60 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN61">
+                    <attributeName>lengths61</attributeName>
+                    <attributeLabel>LEN61</attributeLabel>
+                    <attributeDefinition>lengths61 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN62">
+                    <attributeName>lengths62</attributeName>
+                    <attributeLabel>LEN62</attributeLabel>
+                    <attributeDefinition>lengths62 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN63">
+                    <attributeName>lengths63</attributeName>
+                    <attributeLabel>LEN63</attributeLabel>
+                    <attributeDefinition>lengths63 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN64">
+                    <attributeName>lengths64</attributeName>
+                    <attributeLabel>LEN64</attributeLabel>
+                    <attributeDefinition>lengths64 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN65">
+                    <attributeName>lengths65</attributeName>
+                    <attributeLabel>LEN65</attributeLabel>
+                    <attributeDefinition>lengths65 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN66">
+                    <attributeName>lengths66</attributeName>
+                    <attributeLabel>LEN66</attributeLabel>
+                    <attributeDefinition>lengths66 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN67">
+                    <attributeName>lengths67</attributeName>
+                    <attributeLabel>LEN67</attributeLabel>
+                    <attributeDefinition>lengths67 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN68">
+                    <attributeName>lengths68</attributeName>
+                    <attributeLabel>LEN68</attributeLabel>
+                    <attributeDefinition>lengths68 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN69">
+                    <attributeName>lengths69</attributeName>
+                    <attributeLabel>LEN69</attributeLabel>
+                    <attributeDefinition>lengths69 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN70">
+                    <attributeName>lengths70</attributeName>
+                    <attributeLabel>LEN70</attributeLabel>
+                    <attributeDefinition>lengths70 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN71">
+                    <attributeName>lengths71</attributeName>
+                    <attributeLabel>LEN71</attributeLabel>
+                    <attributeDefinition>lengths71 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN72">
+                    <attributeName>lengths72</attributeName>
+                    <attributeLabel>LEN72</attributeLabel>
+                    <attributeDefinition>lengths72 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN73">
+                    <attributeName>lengths73</attributeName>
+                    <attributeLabel>LEN73</attributeLabel>
+                    <attributeDefinition>lengths73 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN74">
+                    <attributeName>lengths74</attributeName>
+                    <attributeLabel>LEN74</attributeLabel>
+                    <attributeDefinition>lengths74 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN75">
+                    <attributeName>lengths75</attributeName>
+                    <attributeLabel>LEN75</attributeLabel>
+                    <attributeDefinition>lengths75 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN76">
+                    <attributeName>lengths76</attributeName>
+                    <attributeLabel>LEN76</attributeLabel>
+                    <attributeDefinition>lengths76 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN77">
+                    <attributeName>lengths77</attributeName>
+                    <attributeLabel>LEN77</attributeLabel>
+                    <attributeDefinition>lengths77 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN78">
+                    <attributeName>lengths78</attributeName>
+                    <attributeLabel>LEN78</attributeLabel>
+                    <attributeDefinition>lengths78 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN79">
+                    <attributeName>lengths79</attributeName>
+                    <attributeLabel>LEN79</attributeLabel>
+                    <attributeDefinition>lengths79 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN80">
+                    <attributeName>lengths80</attributeName>
+                    <attributeLabel>LEN80</attributeLabel>
+                    <attributeDefinition>lengths80 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN81">
+                    <attributeName>lengths81</attributeName>
+                    <attributeLabel>LEN81</attributeLabel>
+                    <attributeDefinition>lengths81 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN82">
+                    <attributeName>lengths82</attributeName>
+                    <attributeLabel>LEN82</attributeLabel>
+                    <attributeDefinition>lengths82 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN83">
+                    <attributeName>lengths83</attributeName>
+                    <attributeLabel>LEN83</attributeLabel>
+                    <attributeDefinition>lengths83 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN84">
+                    <attributeName>lengths84</attributeName>
+                    <attributeLabel>LEN84</attributeLabel>
+                    <attributeDefinition>lengths84 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN85">
+                    <attributeName>lengths85</attributeName>
+                    <attributeLabel>LEN85</attributeLabel>
+                    <attributeDefinition>lengths85 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN86">
+                    <attributeName>lengths86</attributeName>
+                    <attributeLabel>LEN86</attributeLabel>
+                    <attributeDefinition>lengths86 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN87">
+                    <attributeName>lengths87</attributeName>
+                    <attributeLabel>LEN87</attributeLabel>
+                    <attributeDefinition>lengths87 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN88">
+                    <attributeName>lengths88</attributeName>
+                    <attributeLabel>LEN88</attributeLabel>
+                    <attributeDefinition>lengths88 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN89">
+                    <attributeName>lengths89</attributeName>
+                    <attributeLabel>LEN89</attributeLabel>
+                    <attributeDefinition>lengths89 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN90">
+                    <attributeName>lengths90</attributeName>
+                    <attributeLabel>LEN90</attributeLabel>
+                    <attributeDefinition>lengths90 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN91">
+                    <attributeName>lengths91</attributeName>
+                    <attributeLabel>LEN91</attributeLabel>
+                    <attributeDefinition>lengths91 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN92">
+                    <attributeName>lengths92</attributeName>
+                    <attributeLabel>LEN92</attributeLabel>
+                    <attributeDefinition>lengths92 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN93">
+                    <attributeName>lengths93</attributeName>
+                    <attributeLabel>LEN93</attributeLabel>
+                    <attributeDefinition>lengths93 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN94">
+                    <attributeName>lengths94</attributeName>
+                    <attributeLabel>LEN94</attributeLabel>
+                    <attributeDefinition>lengths94 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN95">
+                    <attributeName>lengths95</attributeName>
+                    <attributeLabel>LEN95</attributeLabel>
+                    <attributeDefinition>lengths95 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN96">
+                    <attributeName>lengths96</attributeName>
+                    <attributeLabel>LEN96</attributeLabel>
+                    <attributeDefinition>lengths96 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN97">
+                    <attributeName>lengths97</attributeName>
+                    <attributeLabel>LEN97</attributeLabel>
+                    <attributeDefinition>lengths97 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN98">
+                    <attributeName>lengths98</attributeName>
+                    <attributeLabel>LEN98</attributeLabel>
+                    <attributeDefinition>lengths98 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN99">
+                    <attributeName>lengths99</attributeName>
+                    <attributeLabel>LEN99</attributeLabel>
+                    <attributeDefinition>lengths99 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+                <attribute id="OysterLandingFish.LEN100">
+                    <attributeName>lengths100</attributeName>
+                    <attributeLabel>LEN100</attributeLabel>
+                    <attributeDefinition>lengths100 measurement per size class in each sample and replicate</attributeDefinition>
+                    <storageType>integer</storageType>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <precision>1</precision>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                                <bounds>
+                                    <minimum exclusive="false">0</minimum>
+                                </bounds>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                    <missingValueCode>
+                        <code>-99</code>
+                        <codeExplanation>missing value</codeExplanation>
+                    </missingValueCode>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>5178</numberOfRecords>
+        </dataTable>
+    </dataset>
+</eml:eml>
