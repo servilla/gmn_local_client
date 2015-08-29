@@ -1,0 +1,10 @@
+[Paths]
+metadata_path = PATH_TO_SCIENCE_METADATA
+data_path = PATH_TO_SCIENCE_DATA
+
+[Formats]
+metadata_scheme = SCIENCE_METADATA_SCHEME
+
+[Files]
+metadata_files = LIST_OF_SCIENCE_METADATA_FILES
+data_file = LIST_OF_SCIENCE_DATA_FILES
