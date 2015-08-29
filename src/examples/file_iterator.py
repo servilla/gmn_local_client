@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+""":Mod: file_iterator
+
+:Synopsis:
+
+:Author:
+    servilla
+  
+:Created:
+    8/28/15
+"""
+
+__author__ = "servilla"
+
+
+def main():
+    return 0
+
+
+if __name__ == "__main__":
+    main()
