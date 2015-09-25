@@ -14,6 +14,11 @@
 
 __author__ = "servilla"
 
+class dataTable:
+
+    def __init__(self, dataPackage):
+        pass
+
 
 def main():
     return 0
