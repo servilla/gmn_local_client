@@ -28,20 +28,33 @@ class DataPackage:
     def __init__(self, eml_path):
         self.eml_path = eml_path
 
-        try:
-            self.eml_xml = open(self.eml_path).read()
-            self.eml = eml2_1_0.eml2_1_0.CreateFromDocument(self.eml_xml)
-        except IOError as e:
-            logger.error("IOError - %s" % e)
-            raise e
-        except pyxb.PyXBException as e:
-            logger.error("PyXBError - %s" % e)
+        self.xml = open(self.eml_path).read()
+        self.eml = eml2_1_0.eml2_1_0.CreateFromDocument(self.xml)
 
-    def _getTitle(eml):
+        # Prefetch required element content
+        self.packageId = self._getPackageId(self.eml)
+        self.title = self._getTitle(self.eml)
+
+    def _getTitle(self, eml):
         dataset = eml.dataset
-        title = dataset.title
+        title_list = dataset.title
+        title = ''
+        for t in title_list:
+            title += format('%s' % t)
         return title
 
+    def getTitle(self):
+        return self.title
+
+    def _getPackageId(self, eml):
+        packageId = eml.packageId
+        return packageId
+
+    def getPackageId(self):
+        return self.packageId
+
+    def getDataTable(self, eml):
+        return None
 
 def main():
 
