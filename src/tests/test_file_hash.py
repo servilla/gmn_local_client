@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-""":Mod: test_obj
+""":Mod: test_file_hash
 
 :Synopsis:
 
@@ -14,12 +14,13 @@
 
 __author__ = 'servilla'
 
-import unittest
 import logging
+logger = logging.getLogger('tests.test_file_hash')
+logger.setLevel(logging.DEBUG)
+
+import unittest
 
 from d1_actions.file_hash import file_hash
-
-logger = logging.getLogger('tests.test_file_hash')
 
 class MyTestCase(unittest.TestCase):
 
@@ -31,7 +32,7 @@ class MyTestCase(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def test_file_sha1(self):
+    def testFileSha1(self):
         try:
             file_sha1 = file_hash(self.file_name, hash='sha1')
         except ValueError as e:
@@ -39,7 +40,7 @@ class MyTestCase(unittest.TestCase):
         else:
             self.assertTrue(file_sha1 == self.file_sha1)
 
-    def test_file_md5(self):
+    def testFileMd5(self):
         try:
             file_md5 = file_hash(self.file_name, hash='md5')
         except ValueError as e:
