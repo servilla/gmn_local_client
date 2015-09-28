@@ -14,10 +14,23 @@
 
 __author__ = "servilla"
 
-class dataTable:
+class DataTable:
 
-    def __init__(self, dataPackage):
+    def __init__(self, data_table):
+        self.data_table = data_table
         pass
+
+    def get_table_count(self):
+        return len(self.data_table)
+
+    def get_table_entityName(self, n_table):
+        return self.data_table[n_table].entityName
+
+    def get_table_physical_count(self, n_table):
+        return len(self.data_table[n_table].physical)
+
+    def get_table_physical_objectName(self, n_table, n_physical):
+        return self.data_table[n_table].physical[n_physical].objectName
 
 
 def main():
