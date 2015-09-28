@@ -27,18 +27,18 @@ class MyTestCase(unittest.TestCase):
     def setUp(self):
         self.file_name = '/home/servilla/PycharmProjects/gmn_local_client/data/NIN/knb-lter-nin.0.1.xml'
         self.dp = data_package.DataPackage(self.file_name)
-        self.packageId = 'knb-lter-nin.0.1'
+        self.package_id = 'knb-lter-nin.0.1'
         self.title = 'Meteorological data for North Inlet Estuary, South Carolina, from 1982 to 1982, North Inlet LTER'
 
     def tearDown(self):
         pass
 
     def test_package_id(self):
-        packageId = self.dp.getPackageId()
-        self.assertEqual(self.packageId, packageId)
+        package_id = self.dp.get_packageId()
+        self.assertEqual(self.package_id, package_id)
 
     def test_title(self):
-        title = self.dp.getTitle()
+        title = self.dp.get_title()
         self.assertEqual(self.title, title)
 
 if __name__ == '__main__':
