@@ -17,6 +17,15 @@ __author__ = "servilla"
 import logging
 logging.basicConfig(format='%(asctime)s %(levelname)s (%(name)s): %(message)s', datefmt='%Y%m%d-%H:%M:%S')
 
+import ConfigParser
+config_path ='../conf/gmn_local_client.conf'
+config = ConfigParser.ConfigParser()
+config.read(config_path)
+
+
+
+
+
 def main():
     return 0
 
