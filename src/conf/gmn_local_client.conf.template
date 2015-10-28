@@ -8,3 +8,6 @@ metadata_scheme = SCIENCE_METADATA_SCHEME
 [Files]
 metadata_files = LIST_OF_SCIENCE_METADATA_FILES
 data_file = LIST_OF_SCIENCE_DATA_FILES
+
+[Tests]
+test_file = NAME_OF_EML_TEST_FILE
