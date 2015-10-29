@@ -22,28 +22,28 @@ logger.setLevel(logging.DEBUG)
 
 import unittest
 
-from eml_data_package import data_package
-from eml_data_package import data_table
+from d1_actions import d1_sysmeta
 
 
 class MyTestCase(unittest.TestCase):
 
     def setUp(self):
         self.fn = config.get('Tests', 'test_file')
-        self.dp = data_package.DataPackage(self.fn)
-        self.dt = data_table.DataTable(self.dp.get_dataTable())
-        self.table_count = 1
-        self.n_table = 0
-        self.table_entityName = 'MeteorologicalData-NIN-LTER-1982-1982'
-        self.table_physical_count = 1
-        self.n_physical = 0
-        self.table_physical_objectName = 'LTER.NIN.MET.csv'
+        self.hash_algorithm = config.get('Tests', 'test_hash_alg')
+        self.hash_value = config.get('Tests', 'test_hash_val')
+        self.sm = d1_sysmeta.SysMeta(self.fn)
 
     def tearDown(self):
         pass
 
     def test_file_name(self):
         self.assertEqual(self.fn, self.fn)
+
+    def test_hash_alg(self):
+        self.assertEqual(self.sm.get_hash_algorithm(), self.hash_algorithm)
+
+    def test_hash_value(self):
+        self.assertEqual(self.sm.get_hash_value(), self.hash_value)
 
 
 if __name__ == '__main__':
