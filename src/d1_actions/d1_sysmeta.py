@@ -14,6 +14,10 @@
 
 __author__ = "servilla"
 
+class SysMeta(object):
+
+    def __init__(self, file_name):
+        self.fn = file_name
 
 def main():
     return 0
