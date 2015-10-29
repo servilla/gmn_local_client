@@ -14,6 +14,8 @@
 
 __author__ = 'servilla'
 
+from tests import config
+
 import logging
 logger = logging.getLogger('tests.test_file_hash')
 logger.setLevel(logging.DEBUG)
@@ -25,10 +27,10 @@ from eml_data_package import data_package
 class MyTestCase(unittest.TestCase):
 
     def setUp(self):
-        self.file_name = '/home/servilla/PycharmProjects/gmn_local_client/data/NIN/knb-lter-nin.0.1.xml'
-        self.dp = data_package.DataPackage(self.file_name)
-        self.package_id = 'knb-lter-nin.0.1'
-        self.title = 'Meteorological data for North Inlet Estuary, South Carolina, from 1982 to 1982, North Inlet LTER'
+        self.fn = config.get('Tests', 'test_file')
+        self.package_id = config.get('Tests', 'test_pid')
+        self.title = config.get('Tests', 'test_title')
+        self.dp = data_package.DataPackage(self.fn)
 
     def tearDown(self):
         pass
