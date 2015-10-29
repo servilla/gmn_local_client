@@ -14,6 +14,8 @@
 
 __author__ = 'servilla'
 
+from tests import config # This is effectively "from __init__ import config"
+
 import logging
 logger = logging.getLogger('tests.test_file_hash')
 logger.setLevel(logging.DEBUG)
@@ -26,15 +28,15 @@ from eml_data_package import data_table
 class MyTestCase(unittest.TestCase):
 
     def setUp(self):
-        self.file_name = '/home/servilla/PycharmProjects/gmn_local_client/data/NIN/knb-lter-nin.0.1.xml'
-        self.dp = data_package.DataPackage(self.file_name)
+        self.fn = config.get('Tests', 'test_file')
+        self.table_entityName = config.get('Tests', 'test_entity_name')
+        self.table_physical_objectName = config.get('Tests', 'test_obj_name')
+        self.table_count = config.getint('Tests', 'test_tbl_cnt')
+        self.n_table = config.getint('Tests', 'test_ref_tbl')
+        self.table_physical_count = config.getint('Tests', 'test_tbl_phys_cnt')
+        self.n_physical = config.getint('Tests', 'test_ref_tbl_phys')
+        self.dp = data_package.DataPackage(self.fn)
         self.dt = data_table.DataTable(self.dp.get_dataTable())
-        self.table_count = 1
-        self.n_table = 0
-        self.table_entityName = 'MeteorologicalData-NIN-LTER-1982-1982'
-        self.table_physical_count = 1
-        self.n_physical = 0
-        self.table_physical_objectName = 'LTER.NIN.MET.csv'
 
     def tearDown(self):
         pass
